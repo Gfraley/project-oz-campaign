@@ -1,30 +1,25 @@
 # Project Oz Campaign Website
 
-Static website files for the Project Oz campaign concept.
+Static website files for the COM 223 Scenario #1 campaign website extra.
 
 ## Pages
 
-- `index.html` — Home / Campaign Landing Page
-- `local-impact.html` — Local Impact / About Project Oz
-- `donate-share.html` — Donate & Share / Get Involved
-- `styles.css` — shared styling
-- `assets/` — placeholder images for the QR box design and flyer/social media mockups
+- `index.html` — campaign landing page and QR code box concept
+- `local-impact.html` — Project Oz background, local issue, services, and sources
+- `donate-share.html` — $50,000 goal, donation/share plan, and campaign action steps
+- `styles.css` — site styling
+- `assets/project-oz-qr.png` — QR code image
 
-## How to host on GitHub Pages
+## How to publish on GitHub Pages
 
-1. Create a new GitHub repository.
-2. Upload every file and folder from this project into the repository.
-3. Make sure `index.html` is in the root of the repository.
-4. Go to **Settings → Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the `main` branch and `/root`, then save.
-7. GitHub will give you a public website link.
+1. Create a new public GitHub repository.
+2. Upload the contents of this folder, not the ZIP file itself.
+3. Make sure `index.html` is at the top/root level of the repository.
+4. Go to Settings > Pages.
+5. Under Build and deployment, choose "Deploy from a branch."
+6. Choose the `main` branch and `/root`, then save.
+7. Wait a few minutes for GitHub to generate the public website link.
 
-## What to replace
+## Notes
 
-- Replace the campaign-name blank with the final campaign name.
-- Replace `assets/qr-box-placeholder.svg` or add the real DP Dough box mockup image.
-- Replace `assets/flyer-placeholder.svg` or add the final flyer/social media advertisement images.
-- Replace the donation placeholder link with the real Project Oz donation or support link if your group decides to use one.
-
-This is a student class-project concept website and not an official Project Oz website.
+This is a student-created campaign concept website. It is not an official Project Oz website and does not claim an official partnership with DP Dough.

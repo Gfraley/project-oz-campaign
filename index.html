@@ -3,68 +3,111 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Project Oz Campaign Website | Campaign Landing</title>
+  <meta name="description" content="Student campaign concept website for Project Oz, focused on local awareness and support for youth services.">
+  <title>Project Oz Campaign | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="student-notice">Student campaign concept website for a class project. This is not an official Project Oz website.</div>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <div class="site-shell">
-    <h1 class="page-label">Page 1: Campaign Landing Page</h1>
+  <div class="notice">Student campaign concept website for a COM 223 class project. This is not an official Project Oz website.</div>
 
-    <div class="site-frame">
-      <header>
-        <div class="brand-bar">Project Oz Campaign Website</div>
-        <nav class="nav-bar" aria-label="Main navigation">
-          <a href="index.html" aria-current="page">Home / Campaign Landing</a>
-          <span class="nav-separator">|</span>
-          <a href="local-impact.html">Local Impact</a>
-          <span class="nav-separator">|</span>
-          <a href="donate-share.html">Donate &amp; Share</a>
-        </nav>
-      </header>
-
-      <main>
-        <section class="hero">
-          <h1>Help Local Youth Find Safety and Support</h1>
-          <div class="campaign-name">Campaign name: <span class="campaign-line" aria-label="blank campaign name line"></span></div>
-        </section>
-
-        <section class="card-grid" aria-label="Landing page sections">
-          <article class="panel">
-            <h2>QR Code Box Campaign</h2>
-            <ul>
-              <li>Explain that the QR code on DP Dough boxes sends customers to this campaign landing page.</li>
-              <li>Show or describe the pizza box QR placement.</li>
-              <li>Keep this section short enough for someone who just scanned the code from their phone.</li>
-            </ul>
-            <img class="box-mockup" src="assets/qr-box-placeholder.svg" alt="Placeholder mockup of a pizza box with a QR code area">
-          </article>
-
-          <article class="panel">
-            <h2>Quick Mission Statement</h2>
-            <ul>
-              <li>Briefly explain what Project Oz does for youth and families in Bloomington-Normal.</li>
-              <li>Use one strong sentence that connects the campaign to safety, support, and stability.</li>
-              <li>Avoid long paragraphs on the landing page.</li>
-            </ul>
-            <div class="placeholder">Insert short mission blurb here</div>
-          </article>
-
-          <article class="panel">
-            <h2>Main Call to Action</h2>
-            <ul>
-              <li>Tell visitors what to do next: donate, share, learn more, or contact Project Oz.</li>
-              <li>Use simple wording that makes the action feel immediate and realistic.</li>
-              <li>This should be the clearest section on the page.</li>
-            </ul>
-            <div class="placeholder">Scan &rarr; Learn &rarr; Share &rarr; Support</div>
-          </article>
-        </section>
-      </main>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Project Oz Campaign homepage">
+        <span class="brand-mark">OZ</span>
+        <span>
+          <strong>Project Oz Campaign</strong>
+          <small>Bloomington-Normal youth support</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="local-impact.html">Local Impact</a>
+        <a href="donate-share.html">Donate &amp; Share</a>
+      </nav>
     </div>
+  </header>
 
-    <div class="goal-note">Website page goal: make the QR scan useful within the first 10 seconds.</div>
-  </div>
+  <main id="main-content">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Campaign name open</p>
+          <h1>Help local youth find safety, support, and stability.</h1>
+          <p class="lead">This campaign connects the Bloomington-Normal community to Project Oz through a QR code placed on DP Dough boxes near the Illinois State University campus.</p>
+          <div class="cta-row">
+            <a class="button primary" href="donate-share.html">Support the campaign</a>
+            <a class="button secondary" href="local-impact.html">Learn about Project Oz</a>
+          </div>
+        </div>
+
+        <aside class="scan-card" aria-label="QR code campaign concept">
+          <div class="box-label">DP Dough Box QR Concept</div>
+          <div class="qr-frame">
+            <img src="assets/project-oz-qr.png" alt="QR code linking to the Project Oz campaign website">
+          </div>
+          <p>Scan the code to learn who Project Oz supports, why the campaign matters, and how to help.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section soft-bg">
+      <div class="container narrow">
+        <h2>Campaign overview</h2>
+        <p>This proposed campaign uses a simple QR code placement to turn everyday local food orders into a quick awareness opportunity. When someone scans the code, they are directed to this site to learn about Project Oz and the services it provides for youth and young adults in crisis.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cards-three">
+        <article class="info-card">
+          <span class="card-number">01</span>
+          <h3>Raise awareness</h3>
+          <p>Introduce local students, families, and community members to Project Oz and the problems it helps address.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">02</span>
+          <h3>Support a $50,000 goal</h3>
+          <p>The campaign goal would help support emergency housing, counseling, life skills classes, transportation, school supplies, food, clothing, and other basic needs.</p>
+        </article>
+        <article class="info-card">
+          <span class="card-number">03</span>
+          <h3>Make support easy</h3>
+          <p>The QR code keeps the action simple: scan, learn, share, and support Project Oz’s work with local youth.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section">
+      <div class="container split-grid">
+        <div>
+          <p class="eyebrow">Why DP Dough boxes?</p>
+          <h2>A practical local touchpoint</h2>
+          <p>DP Dough is close to the Illinois State University campus, where many young adults live, eat, study, and spend time with friends. A QR code on the box meets people in a low-effort moment when they already have their phone nearby.</p>
+        </div>
+        <div class="mock-box" role="img" aria-label="Illustration of a pizza box with a QR campaign label">
+          <div class="mock-box-top">DP Dough Box</div>
+          <div class="mock-box-content">
+            <div>
+              <strong>Support Project Oz</strong>
+              <span>A safe start can begin with one scan.</span>
+            </div>
+            <img src="assets/project-oz-qr.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p><strong>Project Oz Campaign Website</strong><br>Student-created awareness campaign concept.</p>
+      <p>Need immediate help? Call Project Oz at <strong>309-827-0377</strong>. If someone is in danger, call <strong>911</strong>.</p>
+    </div>
+  </footer>
 </body>
 </html>
