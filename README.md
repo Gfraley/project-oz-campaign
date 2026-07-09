@@ -8,7 +8,7 @@ Static website files for the COM 223 Scenario #1 campaign website extra.
 - `local-impact.html` — Project Oz background, local issue, services, and sources
 - `donate-share.html` — $50,000 goal, donation/share plan, and campaign action steps
 - `styles.css` — site styling
-- `assets/project-oz-qr.png` — QR code image
+- `project-oz-qr.png` — QR code image
 
 ## Notes
 
